@@ -1,11 +1,55 @@
 .titulo {
-    font-weight: bold;
-    font-size: 2.1rem;
-    text-align: center;
-  }
+  color: white;
+  font-weight: bold;
+  font-size: 2.1rem;
+  text-align: center;
+}
 
 .subtitulo {
-    font-weight: bold;
-    font-size: 2.1rem;
-    text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
 }
+
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1040px;
+  padding: 20px;
+}
+
+
+.encabezado {
+  color: white;
+}
+
+.seccion {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+@media screen and (max-width:600px) {
+  .seccion {
+    width: 100%;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(80, 78, 78);
+  color: white;
+}
+
