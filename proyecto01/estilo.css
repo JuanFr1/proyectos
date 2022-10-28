@@ -13,16 +13,9 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
 }
-
-.main {
-  margin: 0 auto;
-  max-width: 1040px;
-  padding: 20px;
-}
-
 
 .encabezado {
   color: white;
@@ -30,8 +23,20 @@ html {
 
 .seccion {
   float: left;
-  width: 50%;
-  padding: 20px;
+  width: 40%;
+  padding: 15px;
+  position: flex;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.encabezado{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+  display: grid;
+  justify-content: center;
 }
 
 @media screen and (max-width:600px) {
@@ -40,7 +45,19 @@ html {
   }
 }
 
+
 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.unirow {
+  display: grid;
+  justify-content: center;
+}
+
+.unirow:after {
   content: "";
   display: table;
   clear: both;
@@ -53,3 +70,30 @@ html {
   color: white;
 }
 
+img.foto {
+  border: 10px solid #517fc4;
+  border-radius: 50%;
+  max-width: 20%;
+  height: auto;
+  position: flex;
+  align-content: right;
+}
+
+img.thumbs{
+  padding: 5px;
+  max-width: 25%;
+  height: auto;
+}
+
+textarea {
+  background-color: rgb(217, 223, 228);
+}
+
+.button {
+  background-color: #517fc4;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
