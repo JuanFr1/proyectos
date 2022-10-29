@@ -19,6 +19,7 @@ html {
 
 .encabezado {
   color: white;
+  padding: 35px;
 }
 
 .seccion {
@@ -33,13 +34,13 @@ html {
 
 .encabezado{
   font-weight: bold;
+  align-items: top;
   text-align: center;
   font-size: 1.2rem;
-  display: grid;
-  justify-content: center;
+
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
   .seccion {
     width: 100%;
   }
@@ -83,6 +84,14 @@ img.thumbs{
   padding: 5px;
   max-width: 25%;
   height: auto;
+}
+
+img.icon {
+  max-width: 15%;
+  height: auto;
+  display: inline-block;
+  margin-right: 10px; 
+  color: white;
 }
 
 textarea {
