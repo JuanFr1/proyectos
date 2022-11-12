@@ -8,7 +8,10 @@ function load(){
         if(this.readyState == 4 && this.status == 200){
             var resultado = JSON.parse(this.responseText)
             console.log(resultado.name)
+            
         }
+
+
     }
     http.send()
 }
