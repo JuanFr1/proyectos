@@ -2,3 +2,10 @@ html {
   font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
 }
+
+.tablenochart {
+  align-items: center;
+  padding: 25%;
+  margin: 15%;
+  flex: auto;
+}
